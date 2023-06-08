@@ -1,0 +1,52 @@
+{
+    "blockV1": {
+      "payload": {
+        "transactions": [
+          {
+            "payload": {
+              "reducedPayload": {
+                "commands": [
+                  {
+                    "createDomain": {
+                      "domainId": "aaa",
+                      "defaultRole": "user"
+                    }
+                  }
+                ],
+                "creatorAccountId": "admin@nbc",
+                "createdTime": "1686209988698",
+                "quorum": 1
+              }
+            },
+            "signatures": [
+              {
+                "publicKey": "a9de2b5e09d6e9b561866c2b79260ee86460f8ba32c7237b3f29696b8b956156",
+                "signature": "d7b31f9bd983c5e677e005b28e658f37b9541842514f9a0dc3459b24a27cf846c627dd0125aff8ff234b5a445123a13f1e3496c283454ac9eca4a7dd6058550e"
+              }
+            ]
+          }
+        ],
+        "height": "8",
+        "prevBlockHash": "c30e8a034f18c8a5dd6f6507652f9d8b80dea34358cf7a49d8218c69949cca06",
+        "createdTime": "1686209990786"
+      },
+      "signatures": [
+        {
+          "publicKey": "7071e14a061cd9e5b1492ac2ba589e1dce7772fd6896bb99e921db2ee81d4a75",
+          "signature": "d31665d19dfd220d8f8d677d25dace2247c0db09ad86a37db63e74941cd8d430e25eef07593bcebc2c3d933d5dbcbd24136b31c9e92b4071bc04480b9fec640a"
+        },
+        {
+          "publicKey": "313a07e6384776ed95447710d15e59148473ccfc052a681317a72a69f2a49910",
+          "signature": "d61e783dd86cd52eed47c1e17c8be0d69936900a38c5dbed964b231ded1d85747a9aa9135da4a49b8311af48826411c1edd8d5d21f2c6b0b0fdee8626eed1708"
+        },
+        {
+          "publicKey": "c84c8eee2882ba06ab0ae9134e29ebb59d7329f780631e7dc2420bf99bf2bdb0",
+          "signature": "0ec7967bd1217d573859b26e4f9d799e56f94fb473a9664462ba6b0cf947b9306f44c26175a0732f4c4fb1cd1b95915b47633860b70e935c197aaf00244b910c"
+        },
+        {
+          "publicKey": "51fd783404631073300d7dd7f58305e450fae26f684739fc773f94e712aaa03d",
+          "signature": "f0d27cfd9765003278ac63fd284085c50975e5d5a7e655bbb287842f34eb770dce9e5ffb7d8424affb75f274f693f629a308db16a220aa9e0aa94468436e0e08"
+        }
+      ]
+    }
+  }

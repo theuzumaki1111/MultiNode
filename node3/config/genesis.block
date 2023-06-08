@@ -1,0 +1,142 @@
+{
+   "block_v1": {
+      "payload": {
+         "transactions": [
+            {
+               "payload": {
+                  "reducedPayload": {
+                     "commands": [
+                        {
+                           "addPeer": {
+                              "peer": {
+                                 "address": "iroha_node_0:10001",
+                                 "peerKey": "313a07e6384776ed95447710d15e59148473ccfc052a681317a72a69f2a49910"
+                              }
+                           }
+                        },
+                        {
+                           "addPeer": {
+                              "peer": {
+                                 "address": "iroha_node_1:10001",
+                                 "peerKey": "c84c8eee2882ba06ab0ae9134e29ebb59d7329f780631e7dc2420bf99bf2bdb0"
+                              }
+                           }
+                        },
+                        {
+                           "addPeer": {
+                              "peer": {
+                                 "address": "iroha_node_2:10001",
+                                 "peerKey": "7071e14a061cd9e5b1492ac2ba589e1dce7772fd6896bb99e921db2ee81d4a75"
+                              }
+                           }
+                        },
+                        {
+                           "addPeer": {
+                              "peer": {
+                                 "address": "iroha_node_3:10001",
+                                 "peerKey": "51fd783404631073300d7dd7f58305e450fae26f684739fc773f94e712aaa03d"
+                              }
+                           }
+                        },
+                        {
+                           "createRole": {
+                              "roleName": "admin",
+                              "permissions": [
+                                 "can_add_peer",
+                                 "can_add_signatory",
+                                 "can_create_account",
+                                 "can_create_domain",
+                                 "can_get_all_acc_ast",
+                                 "can_get_all_acc_ast_txs",
+                                 "can_get_all_acc_detail",
+                                 "can_get_all_acc_txs",
+                                 "can_get_all_accounts",
+                                 "can_get_all_signatories",
+                                 "can_get_all_txs",
+                                 "can_get_blocks",
+                                 "can_get_roles",
+                                 "can_read_assets",
+                                 "can_remove_signatory",
+                                 "can_set_quorum"
+                              ]
+                           }
+                        },
+                        {
+                           "createRole": {
+                              "roleName": "user",
+                              "permissions": [
+                                 "can_add_signatory",
+                                 "can_get_my_acc_ast",
+                                 "can_get_my_acc_ast_txs",
+                                 "can_get_my_acc_detail",
+                                 "can_get_my_acc_txs",
+                                 "can_get_my_account",
+                                 "can_get_my_signatories",
+                                 "can_get_my_txs",
+                                 "can_grant_can_add_my_signatory",
+                                 "can_grant_can_remove_my_signatory",
+                                 "can_grant_can_set_my_account_detail",
+                                 "can_grant_can_set_my_quorum",
+                                 "can_grant_can_transfer_my_assets",
+                                 "can_receive",
+                                 "can_remove_signatory",
+                                 "can_set_quorum",
+                                 "can_transfer"
+                              ]
+                           }
+                        },
+                        {
+                           "createRole": {
+                              "roleName": "money_creator",
+                              "permissions": [
+                                 "can_add_asset_qty",
+                                 "can_create_asset",
+                                 "can_receive",
+                                 "can_transfer"
+                              ]
+                           }
+                        },
+                        {
+                           "createDomain": {
+                              "domainId": "nbc",
+                              "defaultRole": "user"
+                           }
+                        },
+                        {
+                           "createAsset": {
+                              "assetName": "usd",
+                              "domainId": "nbc",
+                              "precision": 2
+                           }
+                        },
+                        {
+                           "createAccount": {
+                              "accountName": "admin",
+                              "domainId": "nbc",
+                              "publicKey": "a9de2b5e09d6e9b561866c2b79260ee86460f8ba32c7237b3f29696b8b956156"
+                           }
+                        },
+                        {
+                           "appendRole": {
+                              "accountId": "admin@nbc",
+                              "roleName": "admin"
+                           }
+                        },
+                        {
+                           "appendRole": {
+                              "accountId": "admin@nbc",
+                              "roleName": "money_creator"
+                           }
+                        },
+                     ],
+                     "quorum": 1
+                  }
+               }
+            }
+         ],
+         "txNumber": 1,
+         "height": "1",
+         "prevBlockHash": "0000000000000000000000000000000000000000000000000000000000000000"
+      }
+   }
+}
